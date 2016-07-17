@@ -30,7 +30,7 @@ toast | string text | &lt;text&gt; appears above the health/stamina UI
 toastrandomconvo | string convoid, params object[] args | 
 killall |  | Kills all enemies
 killallnearby |  | Kills all NPC actors in 50 meters
-setavatarid | string avatarid | &lt;avatarid&gt; is derived from `creatures.csv`
+setavatarid | string avatarid | &lt;avatarid&gt; is derived from `Creatures.csv`
 reportstaticmemory |  | 
 reportobjectcounts |  | 
 reportgameobjects |  | 
@@ -141,7 +141,7 @@ setloggerlevel | string loggername, string level |
 logimpactvolumeinfo | bool inlodrange | 
 switchplayercharacter | string id | 
 addplayeritem | string id | 
-spawnactor | string id | Spawns an NPC of &lt;id&gt; as noted in `creatures.csv`
+spawnactor | string id | Spawns an NPC of &lt;id&gt; as noted in `Creatures.csv`
 savesession |  | Immediately saves current session
 purgesavedata |  | Purges save data of current session
 invite | string name | 

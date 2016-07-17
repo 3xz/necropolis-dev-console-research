@@ -4,6 +4,10 @@
 
 Your [save] data is your own responsibility. It's on you if your data explodes.
 
+## Contributions
+
+Contributions are welcome! Ideally, all commands can be given descriptions. Please don't straight-up copy the code as a description (`usedailyseed` is a good example as it's an `if` statement).
+
 ## Access
 
 While in-game do the following:
@@ -120,13 +124,13 @@ setgamma | float val |
 setvsync | bool val | 
 setgeometryquality | int val | 
 setsoftparticles | bool val | 
-setscreenshotfactor | float val | 
-takescreenshot |  | 
+setscreenshotfactor | float val | Increases screenshot resolution where &lt;val&gt; is a multiplier
+takescreenshot |  | Takes a screenshot that is brighter and has no UI. [Comparison](http://imgur.com/a/fuqqz)
 setdefaultlighting |  | 
 disableatmospherefx |  | 
 setgrinelut |  | 
 showexposuredebug | bool val | 
-addloot | string itemdefid | 
+addloot | string itemdefid | Drops &lt;itemdefid&gt; as defined by `Items.csv`
 addlootbatch |  | 
 toasttest |  | 
 wingame |  | 

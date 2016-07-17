@@ -1,10 +1,10 @@
-# Necropolis Developer Console Research
+# [Necropolis](http://store.steampowered.com/app/384490/) Developer Console Research
 
 ## Disclaimer
 
 Your [save] data is your own responsibility. It's on you if your data explodes.
 
-## Contributions
+## Contributing
 
 Contributions are welcome! Ideally, all commands can be given descriptions. Please don't straight-up copy the code as a description (`usedailyseed` is a good example as it's an `if` statement).
 

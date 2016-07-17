@@ -56,7 +56,7 @@ spawnloot10 | string loottableid |
 clearlootinradius | vector3 point, float radius | 
 clearnearbyloot |  | 
 spawnlootitem | string name | 
-setplayerrenderersvisible | bool value | 
+setplayerrenderersvisible | bool value | Player character is not rendered when &lt;value&gt; is `true`
 togglenonaggression |  | When toggled on, aggressive mobs will go neutral after current 'cycle'
 createlighting |  | 
 createflashlight |  | 

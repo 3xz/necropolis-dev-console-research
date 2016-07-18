@@ -97,7 +97,7 @@ settimescale | float val |
 applypalette | string palettename | 
 droptokens | string amount | 
 dropgems | string amount | 
-upgradeplayer |  | 
+upgradeplayer |  | Gives player a *Blessing of the Gods*
 suicide |  | Kills the player character
 suicideinfive |  | Kills the player character in 5 seconds
 gotocharselect |  | Leaves existing game to character select
@@ -143,7 +143,7 @@ loginclude | string includeblob |
 logexclude | string excludeblob | 
 setloggerlevel | string loggername, string level | 
 logimpactvolumeinfo | bool inlodrange | 
-switchplayercharacter | string id | 
+switchplayercharacter | string id | Changes player character to &lt;id&gt; with apporpriate equipment (see `Creatures.csv`)
 addplayeritem | string id | 
 spawnactor | string id | Spawns an NPC of &lt;id&gt; as noted in `Creatures.csv`
 savesession |  | Immediately saves current session

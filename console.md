@@ -93,7 +93,7 @@ settimescale | float val |
 applypalette | string palettename | 
 droptokens | string amount | 
 dropgems | string amount | 
-upgradeplayer |  | Gives player a *Blessing of the Gods*
+upgradeplayer |  | Gives player a *Blessing of the Gods*. Does not heal player like an actual blessing.
 suicide |  | Kills the player character
 suicideinfive |  | Kills the player character in 5 seconds
 gotocharselect |  | Leaves existing game to character select

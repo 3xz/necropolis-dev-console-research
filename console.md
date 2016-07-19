@@ -20,7 +20,7 @@ Command | Parameters | Description
 echo | string text | returns &lt;text&gt; in console
 restart |  | restarts at level 0 with current character
 quit |  | immediately exits the game
-createruckus | int size | 
+createruckus | int size | Creates a ruckus of &lt;size&gt;, causing NPCs from opposing factions to spawn (and attack each other)
 testfx | string bankid | 
 testgameeffect | string gameeffects | 
 usedailyseed |  | current code sets seed to 0 or 3

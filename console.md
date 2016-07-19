@@ -66,9 +66,9 @@ killstuff |  |
 scanstuff |  | 
 togglenavman |  | 
 togglecustomrender |  | 
-becomearena |  | Go to arena seen at the end of PAX demos
+becomearena |  | Toggles PAX arena mode at current location
 teleportmain |  | 
-teleportarena |  | 
+teleportarena |  | Go to arena seen at the end of PAX demos
 teleportelevator |  | 
 cheatloot | int level | 
 cheatwarp | int level | 

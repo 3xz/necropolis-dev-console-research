@@ -25,7 +25,7 @@ testfx | string bankid |
 testgameeffect | string gameeffects | 
 usedailyseed |  | current code sets seed to 0 or 3
 setseed | int seed | restarts and uses &lt;seed&gt;
-loadscene | string scenename | Like `teleport`s but uses `HardLoadLevel()`. Example &lt;scenename&gt;: sm-pax-arena
+loadscene | string scenename | Like `teleport`s but uses `HardLoadLevel()`. Example &lt;scenename&gt;: `sm-pax-arena`, `NecropolisMain`
 toast | string text | &lt;text&gt; appears above the health/stamina UI
 toastrandomconvo | string convoid, params object[] args | 
 killall |  | Kills all enemies

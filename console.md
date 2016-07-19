@@ -120,7 +120,7 @@ setgamma | float val |
 setvsync | bool val | 
 setgeometryquality | int val | 
 setsoftparticles | bool val | 
-setscreenshotfactor | float val | Increases screenshot resolution where &lt;val&gt; is a multiplier
+setscreenshotfactor | float val | Increases screenshot resolution where &lt;val&gt; is a multiplier. Persists over gameplay sessions.
 takescreenshot |  | Takes a screenshot that is brighter and has no UI. [Comparison](http://imgur.com/a/fuqqz)
 setdefaultlighting |  | 
 disableatmospherefx |  | 

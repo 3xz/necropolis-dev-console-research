@@ -4,6 +4,8 @@
 
 Your [save] data is your own responsibility. It's on you if your data explodes.
 
+Using `Assembly-CSharp.dll` with md5 hash of `F91BA4600C0C913E5C2E131C1F0B31A6`
+
 ## Access
 
 While in-game do the following:

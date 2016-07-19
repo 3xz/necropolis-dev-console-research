@@ -67,7 +67,7 @@ scanstuff |  |
 togglenavman |  | 
 togglecustomrender |  | 
 becomearena |  | Toggles PAX arena mode at current location
-teleportmain |  | 
+teleportmain |  | Function does not provide a scene to teleport to, command returns an error.
 teleportarena |  | Go to arena seen at the end of PAX demos
 teleportelevator |  | 
 cheatloot | int level | 

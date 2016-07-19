@@ -75,10 +75,10 @@ cheatwarp | int level |
 teleportend |  | 
 teleporthell |  | Teleports to level 9
 go | int seed, float x, float y, float z | 
-teleport | float x, float y, float z | 
+teleport | float x, float y, float z | Teleport to given coordinates within current session/seed
 teleportcell | int x, int y, int z | 
 traversecell | int x, int y, int z | 
-togglegodmode |  | 
+togglegodmode |  | Appears to do nothing. (Still take damage and die regardless of toggle)
 setspawnanimation | bool val | 
 setprefabinjection | bool val | 
 setmaterialapplication | bool val | 
@@ -97,8 +97,8 @@ upgradeplayer |  | Gives player a *Blessing of the Gods*
 suicide |  | Kills the player character
 suicideinfive |  | Kills the player character in 5 seconds
 gotocharselect |  | Leaves existing game to character select
-injure |  | 
-neardeath |  | 
+injure |  | Player takes damage
+neardeath |  | Player health is set to 1
 cycleversiondisplay |  | 
 togglemenuscreen |  | 
 showdebugmenu |  | 
@@ -147,21 +147,21 @@ purgesavedata |  | Purges save data of current session
 invite | string name | 
 accept | string name | 
 join | string name | 
-friends |  | 
+friends |  | Steam: Lists all non-offline friends with current status of Online or Away. Does not include game friend is playing
 networkingdojoserve |  | 
 fullstacktrace |  | 
 toggledebuginteractions |  | 
 disconnect | string name | 
-refreshobjectives |  | 
+refreshobjectives |  | Refreshes completed objectives
 completeobjectives |  | 
-finishobjectives |  | 
+finishobjectives |  | Finishes all Brazen head objectives
 addrandomobjective |  | 
 addobjective | string id | 
 setoffline |  | 
 setonline |  | 
-printactors |  | 
-printspawnrecords |  | 
-autopilot | int depth | 
+printactors |  | Prints all actors (Player and NPCs) with type, coordinates, distance from player, and map location
+printspawnrecords |  | Prints spawn record of actors and current distance from spawn location
+autopilot | int depth | Autopilots player character (with no clipping) &lt;depth&gt; levels
 chain | string command | 
 networkgameend |  | 
 togglesavemodulemanagerdebugging |  | 

@@ -71,9 +71,9 @@ togglecustomrender |  |
 becomearena |  | Toggles PAX arena mode at current location
 teleportmain |  | Function does not provide a scene to teleport to, command returns an error.
 teleportarena |  | Go to arena seen at the end of PAX demos
-teleportelevator |  | 
-cheatloot | int level | 
-cheatwarp | int level | 
+teleportelevator |  | Teleports to closest elevator
+cheatloot | int level | Drops loot from &lt;level&gt; loot table
+cheatwarp | int level | Teleports player to &lt;level&gt;
 teleportend |  | 
 teleporthell |  | Teleports to level 9
 go | int seed, float x, float y, float z | 
@@ -103,7 +103,7 @@ injure |  | Player takes damage
 neardeath |  | Player health is set to 1
 cycleversiondisplay |  | 
 togglemenuscreen |  | 
-showdebugmenu |  | 
+showdebugmenu |  | Steam: Displays the `esc` menu but without the Steam Friends listing on the top left.
 showrecords |  | Outputs current run's statistics in debug console
 setdebugui | bool val | 
 togglehudui |  | Hides health/stamina UI. Error message suggests it should also hide gem/token UI

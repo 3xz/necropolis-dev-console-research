@@ -4,7 +4,7 @@
 
 Your [save] data is your own responsibility. It's on you if your data explodes.
 
-Using `Assembly-CSharp.dll` with md5 hash of `F91BA4600C0C913E5C2E131C1F0B31A6`
+Using `Assembly-CSharp.dll` with md5 hash of `678c7d00e735cbf6a4215e18912eb078`
 
 ## Access
 

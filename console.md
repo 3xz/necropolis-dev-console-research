@@ -133,7 +133,7 @@ addlootbatch |  |
 toasttest |  | 
 wingame |  | 
 addcraftingcomponents |  | 
-changepickupmode |  | 
+changepickupmode |  | Alternate pickup mode is hold-button-to-pickup
 setskypreset | string presetname | 
 setfogpreset | string presetname | 
 clearlogfilter |  | 

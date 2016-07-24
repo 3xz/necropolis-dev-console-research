@@ -73,7 +73,7 @@ teleportmain |  | Function does not provide a scene to teleport to, command retu
 teleportarena |  | Go to arena seen at the end of PAX demos
 teleportelevator |  | Teleports to closest elevator
 cheatloot | int level | Drops loot from &lt;level&gt; loot table
-cheatwarp | int level | Teleports player to &lt;level&gt;
+cheatwarp | int level | Teleports player to the end of &lt;level&gt;
 teleportend |  | 
 teleporthell |  | Teleports to level 9
 go | int seed, float x, float y, float z | 

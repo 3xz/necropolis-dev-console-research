@@ -11,4 +11,3 @@ Contributions are welcome! Ideally, all commands can be given descriptions. Plea
 ## Research
 
 * [Console Commands](/console.md) 
-* [Persistent Save Data](/savedata_persistent.md)
